@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Employe-Table</title>
+    <style>
+        body{
+            background-color:gray;
+        }
+        h1{
+            color: blue;
+            border: 2px Dotted red;
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+        }
+        table{
+            border:5px solid green ;
+            margin: auto;
+            background-color: white;
+            text-align: center;
+        }
+        caption{
+            border-left:5px Solid Blue;
+            border-right:5px Solid Blue;
+            border-top:5px Solid Blue;
+            border-bottom:5px Solid Blue;
+            background-color: white;
+            font-size: 25px;
+            color:red;
+        }
+        thead,tfoot{
+            background-color: lightpink;
+            color:black;
+        }
+        tfoot {
+            font-size: 21px;
+        }
+        tbody{
+            color:red;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>***Employes-Tables Template***</h1>
+    <hr/>
+    <table border="2" width="80%">
+        <caption>Employe-Details</caption>
+        <thead>
+            <tr>
+                <th>Emp-No</th>
+                <th>Emp-Name</th>
+                <th>Emp-Job-Roll</th>
+                <th>Emp-Salary</th>
+				<th>Prev-Comp-Name</th>
+				<th>Comp-Addres</th>
+				<th>Total-Expirience</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>11</td>
+				<td>Sai</td>
+				<td>Devloper</td>
+				<td>30,000</td>
+				<td>TCS</td>
+				<td>Hyderabad</td>
+				<td>2-Years</td>
+            </tr>
+            <tr>
+                <td>12</td>
+				<td>Ali</td>
+				<td>Devloper</td>
+				<td>23,000</td>
+				<td>IBM</td>
+				<td>Bengulur</td>
+				<td>1.5-Years</td>
+            </tr>
+            <tr>
+                <td>13</td>
+				<td>Ram</td>
+				<td>Devloper</td>
+				<td>45,000</td>
+				<td>Wipro</td>
+				<td>Hyderabad</td>
+				<td>3-Years</td>
+            </tr>
+            <tr>
+                <td>14</td>
+				<td>Tony</td>
+				<td>Tessting</td>
+				<td>35,000</td>
+				<td>capgemini</td>
+				<td>Hyderabad</td>
+				<td>2-Years</td>
+            </tr>
+            <tr>
+                <td>15</td>
+				<td>Sandy</td>
+				<td>Tessting</td>
+				<td>32,000</td>
+				<td>capgemini</td>
+				<td>Chennai</td>
+				<td>2-Years</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">***End of Records***</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
